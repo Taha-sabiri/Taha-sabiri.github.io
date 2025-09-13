@@ -1,5 +1,5 @@
 'use client'
-import { Calendar, Info, Star } from "lucide-react";
+import { Calendar, File, Info, Star } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import TypewriterComponent from "typewriter-effect";
@@ -22,7 +22,7 @@ export default function Home() {
         </p>
         <div className="flex flex-wrap gap-2 mt-1">
           <div className="py-1 px-4 rounded-full border border-black/10">
-            <a href="www.linkedin.com/in/tahasabiri">
+            <a href="https://linkedin.com/in/tahasabiri">
               <span>Linkedin</span>
             </a>
           </div>
@@ -139,6 +139,55 @@ export default function Home() {
             </p>
 
           </div>
+
+        </div>
+
+        <div className="flex  gap-2  text-black/70 mt-5 border-t border-black/10 w-full pt-4 items-center">
+          <File className="size-5" />
+          <span>Project</span>
+        </div>
+        <div className="flex gap-2 mt-1 flex-wrap">
+
+          <div className="bg-black/5 p-2 rounded-md w-full" >
+            <h1>Allocating Taxes to Incomplete Construction Projects </h1>
+            <div className="flex gap-2  tems-center  py-2 ">
+              <Calendar className=" text-black/70 size-3" />
+              <span className="text-sm text-black/70 w-full">
+                Aug2025
+              </span>
+            </div>
+            <a className="text-sm text-black/70" href="https://mtp.evtsp.com">
+              https://mtp.evtsp.com
+            </a>
+
+          </div>
+          <div className="bg-black/5 p-2 rounded-md w-full" >
+            <h1>tax service provider (bank mellat TSP)</h1>
+            <div className="flex gap-2  tems-center  py-2 ">
+              <Calendar className=" text-black/70 size-3" />
+              <span className="text-sm text-black/70 w-full">
+                Jan2024
+              </span>
+            </div>
+            <a className="text-sm text-black/70" href="https://my.evtsp.com">
+              https://my.evtsp.com
+            </a>
+
+          </div>
+          <div className="bg-black/5 p-2 rounded-md w-full" >
+            <h1>Parsian Bank Signature (PWA)</h1>
+            <div className="flex gap-2  tems-center  py-2 ">
+              <Calendar className=" text-black/70 size-3" />
+              <span className="text-sm text-black/70 w-full">
+                Aug2025
+              </span>
+            </div>
+            <a className="text-sm text-black/70" href="https://my.evtsp.com">
+              https://parsian-bank.ir
+            </a>
+
+          </div>
+
 
         </div>
 
