@@ -10,17 +10,17 @@ export default function Home() {
   return (
     <div className="min-h-screen   py-[4svh] flex-col flex  justify-center items-center   w-full p-10 ">
 
-      <div className=" max-w-2xl flex flex-col items-start text-left w-full gap-4">
+      <div className=" max-w-2xl flex flex-col items-start text-left w-full gap-4 ">
         <div className="flex gap-2 items-center">
-          <h1 className="text-4xl font-bold">Hey,I'm Taha Sabiri </h1>
-          <div className="px-4 h-fit py-1 rounded-full border border-purple-700 bg-purple-700/10 text-purple-700 flex justify-center items-center">
-            <span className="text-sm">in work</span>
+          <h1 className="text-2xl md:text-4xl font-bold ">Hey,I'm Taha Sabiri </h1>
+          <div className="px-4 h-fit py-1 rounded-full border border-purple-700 bg-purple-700/10 text-purple-700 hidden md:flex justify-center items-center">
+            <span className="text-sm ">in work</span>
           </div>
         </div>
         <p>
           Front-End Developer with 4 years of hands-on experience in building responsive, user-friendly, and scalable web applications. Skilled in modern JavaScript frameworks, UI/UX best practices, and performance optimization. Strong problem-solving abilities with a focus on delivering clean, maintainable code and enhancing user experience.
         </p>
-        <div className="flex gap-2 mt-1">
+        <div className="flex flex-wrap gap-2 mt-1">
           <div className="py-1 px-4 rounded-full border border-black/10">
             <a href="www.linkedin.com/in/tahasabiri">
               <span>Linkedin</span>
