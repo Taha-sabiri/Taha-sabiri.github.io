@@ -182,8 +182,8 @@ export default function Home() {
                 Aug2025
               </span>
             </div>
-            <a className="text-sm text-black/70" href="https://my.evtsp.com">
-              https://parsian-bank.ir
+            <a className="text-sm text-black/70" href="http://digisign.parsian-bank.ir">
+              https://digisign.parsian-bank.ir
             </a>
 
           </div>
