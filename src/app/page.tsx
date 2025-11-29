@@ -4,6 +4,7 @@ import { Calendar, File, Info, Star } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Root } from "./_type/siteData";
 import Loading from "./loading";
+import Link from "next/link";
 
 export default function Home() {
 
@@ -102,6 +103,33 @@ export default function Home() {
                 <p className="text-sm text-black/70">
                   {item.desc}
                 </p>
+
+              </div>
+            )
+          }
+        </div>
+
+        {/* ------------------- */}
+        <div className="flex  gap-2  text-black/70 mt-5 border-t border-black/10 w-full pt-4 items-center">
+          <Info className="size-5" />
+          <span>Project</span>
+        </div>
+        <div className="flex gap-2 mt-1 flex-wrap">
+          {
+            siteData?.project.map(item =>
+              <div className="bg-black/5 p-2 rounded-md w-full" >
+                <h1>{item.title}</h1>
+                <div className="flex gap-2  tems-center  py-2 ">
+                  <Calendar className=" text-black/70 size-3" />
+                  <span className="text-sm text-black/70 w-full">
+                    {item.date}
+                  </span>
+                </div>
+                <Link href={item.link}>
+                  <p className="text-sm text-black/70">
+                    {item.link}
+                  </p>
+                </Link>
 
               </div>
             )
