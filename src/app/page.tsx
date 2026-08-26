@@ -236,9 +236,9 @@ export default function Home() {
             <span>در دسترس برای پروژه</span>
           </div>
           <nav className="flex items-center gap-4 text-[11px] text-neutral-400">
-            <a href="#" className="flex items-center gap-1.5 hover:text-white transition"><Linkedin className="size-3.5" /> LinkedIn</a>
-            <a href="#" className="flex items-center gap-1.5 hover:text-white transition"><Github className="size-3.5" /> Github</a>
-            <a href="#" className="flex items-center gap-1.5 hover:text-white transition"><Dribbble className="size-3.5" /> Dribbble</a>
+      
+            <a href="https://linkedin.com/in/tahasabiri" className="flex items-center gap-1.5 hover:text-white transition"><Linkedin className="size-3.5" /> LinkedIn</a>
+            <a href="https://github.com/Taha-sabiri" className="flex items-center gap-1.5 hover:text-white transition"><Github className="size-3.5" /> Github</a>
           </nav>
         </header>
 
@@ -265,14 +265,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-6 flex gap-2">
-            <a href="#tamass" className="inline-flex items-center gap-2 bg-white text-black text-[12px] font-medium px-5 py-2 rounded-full hover:bg-neutral-200 transition">
-              <Send className="size-3.5" /> سلام بگو
-            </a>
-            <a href="#" className="inline-flex items-center gap-2 border border-white/15 text-[12px] px-5 py-2 rounded-full hover:bg-white hover:text-black transition">
-              <FileText className="size-3.5" /> رزومه
-            </a>
-          </div>
+         
         </section>
 
         <section className="py-6 border-t border-white/[0.06]">
@@ -299,19 +292,17 @@ export default function Home() {
         </section>
 
         <section className="py-6 border-t border-white/[0.06]">
-          <div className="grid grid-cols-4 gap-2">
-            <a href="#" className="aspect-square bg-white/[0.04] border border-white/[0.06] rounded-xl grid place-items-center gap-1 hover:bg-white hover:text-black transition group">
+          <div className="grid grid-cols-3 gap-2">
+            <a href="https://linkedin.com/in/tahasabiri" className="aspect-square bg-white/[0.04] border border-white/[0.06] rounded-xl grid place-items-center gap-1 hover:bg-white hover:text-black transition group">
               <Linkedin className="size-5" /><span className="text-[9px]">LinkedIn</span>
             </a>
-            <a href="#" className="aspect-square bg-white/[0.04] border border-white/[0.06] rounded-xl grid place-items-center gap-1 hover:bg-white hover:text-black transition">
+            <a href="https://github.com/Taha-sabiri" className="aspect-square bg-white/[0.04] border border-white/[0.06] rounded-xl grid place-items-center gap-1 hover:bg-white hover:text-black transition">
               <Github className="size-5" /><span className="text-[9px]">Github</span>
             </a>
-            <a href="#" className="aspect-square bg-white/[0.04] border border-white/[0.06] rounded-xl grid place-items-center gap-1 hover:bg-white hover:text-black transition">
+            <a href="mailto:taha.sabiri6702@gmail.com" className="aspect-square bg-white/[0.04] border border-white/[0.06] rounded-xl grid place-items-center gap-1 hover:bg-white hover:text-black transition">
               <AtSign className="size-5" /><span className="text-[9px]">Email</span>
             </a>
-            <a href="#" className="aspect-square bg-white/[0.04] border border-white/[0.06] rounded-xl grid place-items-center gap-1 hover:bg-white hover:text-black transition">
-              <Dribbble className="size-5" /><span className="text-[9px]">Dribbble</span>
-            </a>
+          
           </div>
           <div className="mt-3 bg-white/[0.04] border border-white/[0.06] rounded-xl p-4 flex items-center justify-between hover:bg-white/[0.06] transition cursor-pointer">
             <div>
