@@ -5,8 +5,8 @@ import "./globals.css";
 const vazirmatn = Vazirmatn({ subsets: ['arabic', 'latin'], weight: ['300','400','500','700','800'], display: 'swap', variable: '--font-vazir' })
 
 export const metadata: Metadata = {
-  title: "طه صابری — توسعه دهنده",
-  description: "پورتفولیو طه صابری - توسعه دهنده فرانت‌اند",
+  title: "طاها صبیری | توسعه دهنده فرانت‌اند",
+  description: "پورتفولیو طاها صبیری - توسعه دهنده فرانت‌اند",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
