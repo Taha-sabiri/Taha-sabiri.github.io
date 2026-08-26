@@ -1,24 +1,18 @@
 import type { Metadata } from "next";
-import {Inconsolata} from "next/font/google";
+import { Vazirmatn } from "next/font/google";
 import "./globals.css";
 
-const inconsolata =Inconsolata({ subsets: ['latin'] })
+const vazirmatn = Vazirmatn({ subsets: ['arabic', 'latin'], weight: ['300','400','500','700','800'], display: 'swap', variable: '--font-vazir' })
 
 export const metadata: Metadata = {
-  title: "Taha Sabiri",
-  description: "portfolio",
+  title: "طه صابری — توسعه دهنده",
+  description: "پورتفولیو طه صابری - توسعه دهنده فرانت‌اند",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body
-        className={`${inconsolata.className}  `}
-      >
+    <html lang="fa" dir="rtl">
+      <body className={`${vazirmatn.className} antialiased`}>
         {children}
       </body>
     </html>
