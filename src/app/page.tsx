@@ -179,6 +179,7 @@ const mock: Root = {
       "date": "July2026"
     }
   ],
+  
   "social": [
     {
       "id": 1,
