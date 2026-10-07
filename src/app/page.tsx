@@ -243,7 +243,7 @@ export default function Home() {
         </header>
 
         <section className="py-10">
-          <img src="https://media.licdn.com/dms/image/v2/D4E03AQHBPVDyIw9VMg/profile-displayphoto-crop_800_800/B4EZ_F8dsNHsAI-/0/1785732390995?e=1789603200&v=beta&t=361lJf2dWq9KLPXsUaqt2SbFUqZ3tZFWMDloZFDqKBE" alt="avatar" className="size-20 rounded-full grayscale border border-white/10" />
+          <img src="https://media.licdn.com/dms/image/v2/D4E03AQHBPVDyIw9VMg/profile-displayphoto-crop_800_800/B4EZ_F8dsNHsAI-/0/1785732390995?e=1793232000&v=beta&t=_BPtsOyKu-4011qUBlCKxhE9hlkDSt8oaYxUqRetCqU" alt="avatar" className="size-20 rounded-full grayscale border border-white/10" />
           <h1 className="text-[17px] font-medium mt-4 flex items-center gap-2">سلام، من طاها صبیری هستم <Sparkles className="size-3.5 text-neutral-500" /></h1>
           <p className="text-[13px] leading-7 text-neutral-400 mt-3 max-w-[520px]">
             {d.info[0].desc}
