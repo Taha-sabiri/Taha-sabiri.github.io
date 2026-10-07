@@ -8,6 +8,7 @@ import {
   Briefcase, Code2, Layers, Sparkles, Cpu, Database, Palette, Award, Star, Calendar, FileText, Send, AtSign, Globe, Box, Braces
 } from "lucide-react"
 
+
 const mock: Root = {
   "info": [
     {
